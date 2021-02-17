@@ -32,8 +32,7 @@ h1{
     font-family: Century Gothic Regular;
     border: 3px solid #ffffff;
     padding: 15px;
-    font-weight: bold;
-    
+    font-weight: bold;  
 }
 .siguiente:hover{
     color: #61BD75;
@@ -129,6 +128,13 @@ div.galeria {
         transition: 1s;
         font-size: 20px;
         padding: 12px;
+    }
+    .parrafo2{
+        font-size: 18px;
+        margin: 35px 10px;
+    }
+    .form{
+        margin-bottom: 40px;
     }
     }
     .clearfix:after {
