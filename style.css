@@ -102,9 +102,15 @@ div.galeria {
     .responsive {
     width: 100%;
     }
+    h1{
+        font-size: 26px;
+        margin: 10px;
+        text-align: center;
+    }
     }
     .clearfix:after {
     content: "";
     display: table;
     clear: both;
     }
+  
