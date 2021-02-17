@@ -1,7 +1,12 @@
 @import url(//db.onlinewebfonts.com/c/9b62dc86f936227b3f7b367bd0b6c05e?family=Tw+Cen+MT);
 @font-face {
     font-family: "Tw Cen MT"; 
-    src: url(./Tw\ Cen\ MT.woff2); }
+    src: url(./Tw\ Cen\ MT.woff2); 
+}
+@font-face{
+    font-family: "Century Gothic Regular";
+    src: url(./CenturyGothic.woff2);
+}
 body{
     background-color: #000000;
     text-align: center;
