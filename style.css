@@ -122,7 +122,13 @@ div.galeria {
         border: 2px solid #ffffff;
         padding: 10px;
         font-weight: bold;
-        
+    }
+    .siguiente:hover{
+        color: #61BD75;
+        border: 2px solid #61BD75;
+        transition: 1s;
+        font-size: 20px;
+        padding: 12px;
     }
     }
     .clearfix:after {
