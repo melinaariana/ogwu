@@ -1,0 +1,101 @@
+body{
+    background-color: #000000;
+    text-align: center;
+    color: #ffffff;
+   
+    margin: 0 auto;
+    
+}
+h1{
+    font-size: 50px;
+    text-transform: uppercase;
+    font-family: Tw Cen MT Regular;
+}
+.parrafo{
+    font-size: 28px;
+    font-family: Century Gothic Regular;
+    margin:100px;
+}
+.siguiente{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 24px;
+    font-family: Century Gothic Regular;
+    border: 3px solid #ffffff;
+    padding: 15px;
+    font-weight: bold;
+    
+}
+.siguiente:hover{
+    color: #61BD75;
+    border: 3px solid #61BD75;
+    transition: 1s;
+    font-size: 30px;
+    padding: 20px;
+}
+
+form{
+    font-family: Century Gothic Regular;
+    font-size: 20px;
+}
+input{
+    border: 1px solid #ffffff;
+    background-color: #000000;
+    color: #ffffff;
+    padding: 5px;
+    font-family: Century Gothic Regular;
+}
+.parrafo2{
+    font-size: 28px;
+    font-family: Century Gothic Regular;
+    margin:50px;
+}
+img{
+    width: 400px;
+}
+.h1{
+    margin-top: 150px;
+}
+
+/* galeria */
+div.galeria {
+    border: 1px solid #ccc;
+    }
+    div.galeria:hover {
+    border: 1px solid #777;
+    }
+    div.galeria img {
+    width: 100%;
+    height: auto;
+    }
+    div.desc {
+    font-family: Tw Cen MT Regular;
+    padding: 15px;
+    text-align: center;
+    font-size: 20px;
+    }
+    * {
+    box-sizing: border-box;
+    }
+    .responsive {
+    padding: 0 10px;
+    margin-left: 34px;
+    width: 30.99999%;
+    float: left;
+    }
+    @media only screen and (max-width: 700px) {
+    .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+    }
+    }
+    @media only screen and (max-width: 500px) {
+    .responsive {
+    width: 100%;
+    }
+    }
+    .clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+    }

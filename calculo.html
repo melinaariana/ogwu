@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ogwu - Smokeshop</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <h1 class="h1">Tomaremos en cuenta:</h1>
+        <p class="parrafo">
+            1) Cantidad total del cbd que contiene el envase (gotero, <br>bote de gomitas, envase liquido vape), lo más común es<br> 250mg, 500mg, 1000mg y 1500mg. <br>
+            2) Tamaño del envase en ml o mg (segun corresponda)
+        </p>
+        <h1>Fórmula:</h1>
+    </div>
+    <form method="POST" oninput="resultado.value=parseInt(valor1.value)/parseInt(valor2.value)">
+        <label for="valor1">1) CBD en mG</label>
+        <input type="number" id="valor1" value="0">  ÷
+        <label for="valor2">2) Tamaño de botella en mL</label>
+        <input type="number" id="valor2" value="0"> =
+        <output name="resultado" for="valor1 valor2"></output> mg de CBD / ml
+    </form>
+    <div>
+        <p class="parrafo2">¡Anota el resultado!</p>
+        <a class="siguiente" href="./gotas.html">Siguiente</a>
+    </div>
+</body>
+</html>

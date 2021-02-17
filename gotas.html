@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ogwu - Smokeshop</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div>
+        <h1 class="h1">Pasemos eso a gotas!</h1>
+        <p class="parrafo2">La pipeta del gotero es de 1ml (por lo general, es la medida que usa la mayoría). <br> La pipeta dispensa 20 gotas por cada ml de aceite.</p>
+        <p class="parrafo2">Completa con el resultado que obtuviste en el paso anterior *</p>
+        <form method="POST" oninput="resultado.value=parseInt(valor1.value)/parseInt(20)">
+            <label for="valor1">1) *</label>
+            <input type="number" id="valor1" value="0">  ÷
+20 =
+            <output name="resultado" for="valor1 valor2"></output> mg de CBD / ml
+        </form>
+        <a class="siguiente" href="./dosis.html">Siguiente</a>
+    </div>
+
+        
+
+</body>
+</html>
